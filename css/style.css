@@ -1049,6 +1049,19 @@
 				text-decoration: none;
 			}
 
+/* Main Gallery */
+
+	#MainBanner {
+		background-color: #666666;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #d8d8d8;
+		padding: 14em 0;
+		text-align: center;
+		position: relative;
+	}
+
 /* Footer */
 
 	#footer {

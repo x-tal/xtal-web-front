@@ -7,3 +7,4 @@ $(document).on("click", ".goto", function(){
         scrollTop: $( $(this).attr('href') ).offset().top - 70
     }, "slow");
 });
+
