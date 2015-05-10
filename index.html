@@ -42,16 +42,17 @@ $('.bxslider').bxSlider({
 				<h1><a href="index.html">X-TAL</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">About</a></li>
-						<li><a href="member.html">Member</a></li>
-						<li><a href="left-sidebar.html">Projects</a></li>
-						<li><a href="right-sidebar.html">Gallery</a></li>
+						<li><a href="#banner" class="goto">Main</a></li>
+						<li><a href="#one" class="goto">About</a></li>
+						<li><a href="#two" class="goto">Goal</a></li>
+						<li><a href="#footer" class="goto">Contact</a></li>
 						<li><a href="https://www.facebook.com/ajouxtal">Facebook</a></li>
-						<li><a href="no-sidebar.html">Github</a></li>
+						<li><a href="https://github.com/x-tal">Github</a></li>
 					</ul>
 				</nav>
-			</header>
-		<!-- Banner -->
+            </header>
+            <!-- Banner -->
+            <!-- HOTFIX
 			<section id="MainBanner">
 				<div class="inner">
 					<div class="slider">
@@ -63,45 +64,80 @@ $('.bxslider').bxSlider({
 					</div>
 				</div>
 			</section>
-			
+            -->
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h2>X-Tal is Good</h2>
-					<p>Come on X-tal is Good </p>
+                    <h2>X-Tal</h2>
+					<p>임베디드 응용 제어 소학회</p>
 					<ul class="actions">
-						<li><a href="#one" class="button big alt goto">Learn More</a></li>
+						<li><a href="#one" class="button big alt goto">더 알아보기</a></li>
 					</ul>
 				</div>
 			</section>
 
 		<!-- One -->
 			<section id="one" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="8u">
+							<section>
+								<h2>크리스탈</h2>
+								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+							</section>
+						</div>
+						<div class="4u">
+							<section>
+								<h3>소개</h3>
+                                <p>X-tal(크리스탈)은 최신 전자공학기술을 바탕으로 다양한 연구 및 프로젝트 진행을 목적으로 설립됬으며, Micro processor 응용 및 다양한 연구 및 프로젝트 진행을 통해 작픔을 제작하는 소학회입니다.</p>
+								<ul class="actions">
+									<li><a href="#" class="button alt">더 알아보기</a></li>
+								</ul>
+							</section>
+                            <!--
+							<hr />
+							<section>
+								<h3>Ante sed commodo</h3>
+								<ul class="alt">
+									<li><a href="#">Erat blandit risus vis adipiscing</a></li>
+									<li><a href="#">Tempus ultricies faucibus amet</a></li>
+									<li><a href="#">Arcu commodo non adipiscing quis</a></li>
+									<li><a href="#">Accumsan vis lacinia semper</a></li>
+								</ul>
+							</section>
+                            -->
+						</div>
+					</div>
+				</div>
+			</section>			
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
 				<header class="major">
-					<h2>Ipsum feugiat consequat</h2>
-					<p>Tempus adipiscing commodo ut aliquam blandit</p>
+					<h2>목표</h2>
+					<p>크리스탈에서 지향하는 목표입니다.</p>
 				</header>
 				<div class="container">
 					<div class="row">
-						<div class="4u">
+                            <div class="4u">
 							<section class="special box">
-								<i class="icon fa-area-chart major"></i>
-								<h3>Justo placerat</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+								<i class="icon fa-cog major"></i>
+								<h3>하드웨어 개발</h3>
+								<p>Microprocessor 기반 회로나 제어이론, Digital 회로를 공부하며, 이러한 회로 기반 하드웨어를 구성해보고 제작합니다.</p>
 							</section>
 						</div>
 						<div class="4u">
 							<section class="special box">
 								<i class="icon fa-refresh major"></i>
-								<h3>Blandit quis curae</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+								<h3>소프트웨어 개발</h3>
+								<p>AVR이나 ARM, DSP 등 실제 임베디드 디바이스에 들어갈 Microprocessor를 제어하는 소프트웨어 어플리케이션을 공부하고, 개발합니다.</p>
 							</section>
 						</div>
 						<div class="4u">
 							<section class="special box">
-								<i class="icon fa-cog major"></i>
-								<h3>Amet sed accumsan</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+								<i class="icon fa-area-chart major"></i>
+								<h3>다양한 작품 개발</h3>
+								<p>다양한 연구 및 프로젝트를 진행하면서 하드웨어 및 소프트웨어 개발을 연계하여 다양한 작품을 제작합니다. 또한 이를 통해 다양한 대회나 경연 등에 참가합니다.</p>
 							</section>
 						</div>
 					</div>
@@ -109,6 +145,7 @@ $('.bxslider').bxSlider({
 			</section>
 			
 		<!-- Two -->
+        <!-- HOTFIX
 			<section id="two" class="wrapper style2">
 				<header class="major">
 					<h2>Commodo accumsan aliquam</h2>
@@ -139,40 +176,8 @@ $('.bxslider').bxSlider({
 					</div>
 				</div>
 			</section>
+            -->
 
-		<!-- Three -->
-			<section id="three" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="8u">
-							<section>
-								<h2>Mollis ut adipiscing</h2>
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<h3>Magna massa blandit</h3>
-								<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
-							<hr />
-							<section>
-								<h3>Ante sed commodo</h3>
-								<ul class="alt">
-									<li><a href="#">Erat blandit risus vis adipiscing</a></li>
-									<li><a href="#">Tempus ultricies faucibus amet</a></li>
-									<li><a href="#">Arcu commodo non adipiscing quis</a></li>
-									<li><a href="#">Accumsan vis lacinia semper</a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
-				</div>
-			</section>			
 			
 		<!-- Footer -->
 			<footer id="footer">
@@ -181,39 +186,33 @@ $('.bxslider').bxSlider({
 						<div class="6u">
 							<div class="row collapse-at-2">
 								<div class="6u">
-									<h3>Accumsan</h3>
+									<h3>1학기 주요 행사</h3>
 									<ul class="alt">
-										<li><a href="#">Nascetur nunc varius</a></li>
-										<li><a href="#">Vis faucibus sed tempor</a></li>
-										<li><a href="#">Massa amet lobortis vel</a></li>
-										<li><a href="#">Nascetur nunc varius</a></li>
+										<li>1학기 개강총회</li>
+										<li>매주 세미나</li>
+										<li>체육대회</li>
+										<li>카운터 제작</li>
 									</ul>
 								</div>
 								<div class="6u">
-									<h3>Faucibus</h3>
+									<h3>2학기 주요 행사</h3>
 									<ul class="alt">
-										<li><a href="#">Nascetur nunc varius</a></li>
-										<li><a href="#">Vis faucibus sed tempor</a></li>
-										<li><a href="#">Massa amet lobortis vel</a></li>
-										<li><a href="#">Nascetur nunc varius</a></li>
+										<li>2학기 개강총회</li>
+										<li>라인트레이서 대회</li>
+										<li>전자전시회</li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="6u">
-							<h2>Aliquam Interdum</h2>
-							<p>Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
-							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-							</ul>
+							<h2>주소</h2>
+                            <p>수원시 영통구 원천동 아주대학교 신학생회관 216호</p>
+                            <h2>연락처</h2>
+                            <p>031-219-3910</p>
 						</div>
 					</div>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li>
+						<li>&copy; X-tal. All rights reserved.</li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 					</ul>
