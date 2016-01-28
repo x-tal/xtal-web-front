@@ -9,7 +9,7 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			
+
 			// Global.
 				global: {
 					range: '*',
@@ -74,17 +74,23 @@
 					grid: {
 						collapse: 2
 					}
+				},
+
+			// Custom.
+				custom: {
+					range: '*',
+					href: 'css/custom.css',
 				}
 
 		},
 		plugins: {
 			layers: {
-				
+
 				// Config.
 					config: {
 						transform: true
 					},
-				
+
 				// Navigation Panel.
 					navPanel: {
 						animation: 'pushX',
@@ -114,9 +120,12 @@
 	});
 
 	$(function() {
-		
-		// jQuery ready stuff.
-		
+
+		$('#three-button').css('margin-left', (parseInt($('#three-button').css('width')) / -2));
+		$('#three-button').click(function() {
+			$('#three-block').slideToggle();
+		});
+
 	});
 
 })(jQuery);
