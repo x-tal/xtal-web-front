@@ -8,3 +8,9 @@ $(document).on("click", ".goto", function(){
     }, "slow");
 });
 
+$(document).ready(function() {
+    $('#three-button').css('margin-left', (parseInt($('#three-button').css('width')) / -2));
+    $('#three-button').click(function() {
+      $('#three-block').slideToggle();
+    });
+})

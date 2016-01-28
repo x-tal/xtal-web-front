@@ -76,10 +76,10 @@
 					}
 				},
 
-			// Custom.
+			// XLarge.
 				custom: {
 					range: '*',
-					href: 'css/custom.css',
+					href: 'css/custom.css'
 				}
 
 		},
@@ -121,10 +121,7 @@
 
 	$(function() {
 
-		$('#three-button').css('margin-left', (parseInt($('#three-button').css('width')) / -2));
-		$('#three-button').click(function() {
-			$('#three-block').slideToggle();
-		});
+		// jQuery ready stuff.
 
 	});
 
