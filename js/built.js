@@ -9,8 +9,12 @@ $(document).on("click", ".goto", function(){
 });
 
 $(document).ready(function() {
-    $('#three-button').css('margin-left', (parseInt($('#three-button').css('width')) / -2));
+    $('.button-align-center').each(function(index) {
+      $(this).css(
+        'margin-left', (parseInt($(this).css('width')) / -2));
+    });
+
     $('#three-button').click(function() {
       $('#three-block').slideToggle();
     });
-})
+});
