@@ -36,6 +36,22 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 		});
 	});
 	</script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.5&appId=1215941241752783";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			mode: 'fade',
+			captions: true
+		});
+	});
+	</script>
 	<!-- Header -->
 	<header id="header" class="skel-layers-fixed">
 		<h1><a href="index.html">X-TAL</a></h1>
@@ -80,62 +96,50 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 							<li><a href="#two" class="button alt goto">더 알아보기</a></li>
 						</ul>
 					</section>
-					<!--
-					<hr />
-					<section>
-					<h3>Ante sed commodo</h3>
-					<ul class="alt">
-					<li><a href="#">Erat blandit risus vis adipiscing</a></li>
-					<li><a href="#">Tempus ultricies faucibus amet</a></li>
-					<li><a href="#">Arcu commodo non adipiscing quis</a></li>
-					<li><a href="#">Accumsan vis lacinia semper</a></li>
-				</ul>
-			</section>
-		-->
-	</div>
-</div>
-</div>
-</section>
-
-<!-- Goal -->
-<section id="two" class="wrapper style2">
-	<header class="major">
-		<h2>목표</h2>
-		<p>크리스탈에서 지향하는 목표입니다.</p>
-	</header>
-	<div class="container">
-		<div class="row">
-			<div class="4u">
-				<section class="special box">
-					<i class="icon fa-cog major"></i>
-					<h3>하드웨어 개발</h3>
-					<p>Microprocessor 기반 회로나 제어이론, Digital 회로를 공부하며, 이러한 회로 기반 하드웨어를 구성해보고 제작합니다.</p>
-				</section>
-			</div>
-			<div class="4u">
-				<section class="special box">
-					<i class="icon fa-refresh major"></i>
-					<h3>소프트웨어 개발</h3>
-					<p>AVR이나 ARM, DSP 등 실제 임베디드 디바이스에 들어갈 Microprocessor를 제어하는 소프트웨어 어플리케이션을 공부하고, 개발합니다.</p>
-				</section>
-			</div>
-			<div class="4u">
-				<section class="special box">
-					<i class="icon fa-area-chart major"></i>
-					<h3>다양한 작품 개발</h3>
-					<p>다양한 연구 및 프로젝트를 진행하면서 하드웨어 및 소프트웨어 개발을 연계하여 다양한 작품을 제작합니다. 또한 이를 통해 다양한 대회나 경연 등에 참가합니다.</p>
-				</section>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<!--  -->
-<!-- HOTFIX
-<section id="two" class="wrapper style2">
-<header class="major">
-<h2>Commodo accumsan aliquam</h2>
-<p>Amet nisi nunc lorem accumsan</p>
+	<!-- Goal -->
+	<section id="two" class="wrapper style2">
+		<header class="major">
+			<h2>목표</h2>
+			<p>크리스탈에서 지향하는 목표입니다.</p>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="4u">
+					<section class="special box">
+						<i class="icon fa-cog major"></i>
+						<h3>하드웨어 개발</h3>
+						<p>Microprocessor 기반 회로나 제어이론, Digital 회로를 공부하며, 이러한 회로 기반 하드웨어를 구성해보고 제작합니다.</p>
+					</section>
+				</div>
+				<div class="4u">
+					<section class="special box">
+						<i class="icon fa-refresh major"></i>
+						<h3>소프트웨어 개발</h3>
+						<p>AVR이나 ARM, DSP 등 실제 임베디드 디바이스에 들어갈 Microprocessor를 제어하는 소프트웨어 어플리케이션을 공부하고, 개발합니다.</p>
+					</section>
+				</div>
+				<div class="4u">
+					<section class="special box">
+						<i class="icon fa-area-chart major"></i>
+						<h3>다양한 작품 개발</h3>
+						<p>다양한 연구 및 프로젝트를 진행하면서 하드웨어 및 소프트웨어 개발을 연계하여 다양한 작품을 제작합니다. 또한 이를 통해 다양한 대회나 경연 등에 참가합니다.</p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--  -->
+	<!-- HOTFIX
+	<section id="two" class="wrapper style2">
+	<header class="major">
+	<h2>Commodo accumsan aliquam</h2>
+	<p>Amet nisi nunc lorem accumsan</p>
 </header>
 <div class="container">
 <div class="row">
@@ -325,26 +329,40 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 		<div class="row">
 			<div class="4u">
 				<h2>회장</h2>
-				<p>김선엽</p>
-				<h2>연락처</h2>
-				<p>010-8809-9143</p>
-			</div>
-			<div class="4u">
+				<p>김선엽 / 010-8809-9143</p>
 				<h2>부회장</h2>
-				<p>김성연</p>
-				<h2>연락처</h2>
-				<p>010-3397-3604</p>
+				<p>김성연 / 010-3397-3604</p>
+				<p></p>
 			</div>
 			<div class="4u">
 				<h2>주소</h2>
 				<p>수원시 영통구 원천동 아주대학교 신학생회관 216호</p>
 				<h2>연락처</h2>
 				<p>031-219-3910</p>
-				<h2>Facebook</h2>
-				<a href="https://www.facebook.com/ajouxtal/" target="_blank" class="button alt">더 알아보기</a>
+			</div>
+			<div class="4u">
+				<div class="fb-web">
+					<div class="fb-page"
+					data-href="https://www.facebook.com/ajouxtal/"
+					data-tabs="timeline,messages"
+					data-small-header="false"
+					data-adapt-container-width="true"
+					data-hide-cover="false"
+					data-show-facepile="true"
+					data-width="324">
+					<div class="fb-xfbml-parse-ignore">
+						<h2>X-tal 페이스북 페이지</h2>
+						<a href="https://www.facebook.com/ajouxtal/" target="_blank" class="button alt button-align-center">바로가기</a>
+					</div>
+				</div>
+			</div>
+			<div class="fb-mobile">
+				<h2>X-tal 페이스북 페이지</h2>
+				<a href="https://www.facebook.com/ajouxtal/" target="_blank" class="button alt button-align-center">바로가기</a>
 			</div>
 		</div>
 	</div>
+</div>
 </section>
 <!-- Footer -->
 <footer id="footer">
