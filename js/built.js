@@ -9,11 +9,6 @@ $(document).on("click", ".goto", function(){
 });
 
 $(document).ready(function() {
-    $('.button-align-center').each(function(index) {
-      $(this).css(
-        'margin-left', (parseInt($(this).css('width')) / -2));
-    });
-
     $('#three-button').click(function() {
       $('#three-block').slideToggle();
     });
