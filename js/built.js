@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('#three-button').click(function() {
       $('#three-block').slideToggle();
     });
-    $('.fb-pages').data('width', $('.4u').width());
+    $('#fb-block').data('width', $('#fb-block').parent().width());
 });
 
 // window.fbAsyncInit = function() {
