@@ -2,8 +2,30 @@
   text-align: center;
 }
 
+#activity-hidden {
+  display: none;
+}
+
 #history-hidden {
   display: none;
+}
+
+#two .year {
+    width: 100%;
+    position: relative;
+    margin: 2em 0 1.5em 0;
+    color: #bbb;
+		text-align: center;
+		font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#two .year.first {
+  margin-top: 1em;
+}
+
+#two .header {
+  margin: 0 !important;
 }
 
 @media (max-width: 980px) {

@@ -16,4 +16,12 @@ $(document).ready(function() {
         historyWrap.slideUp();
       }
     });
+
+    $('#activity-button').click(function() {
+      var activityWrap = $('#activity-button').parent().parent();
+      if (activityWrap.hasClass("button-align-center")) {
+        $('#activity-hidden').slideDown();
+        activityWrap.slideUp();
+      }
+    });
 });
