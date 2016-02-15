@@ -9,7 +9,11 @@ $(document).on("click", ".goto", function(){
 });
 
 $(document).ready(function() {
-    $('#three-button').click(function() {
-      $('#three-block').slideToggle();
+    $('#history-button').click(function() {
+      var historyWrap = $('#history-button').parent().parent();
+      if (historyWrap.hasClass("button-align-center")) {
+        $('#history-hidden').slideDown();
+        historyWrap.slideUp();
+      }
     });
 });
