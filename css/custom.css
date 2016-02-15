@@ -10,7 +10,7 @@
   display: none;
 }
 
-#two .year {
+#activity .year {
     width: 100%;
     position: relative;
     margin: 2em 0 1.5em 0;
@@ -20,11 +20,11 @@
     line-height: 1.5em;
 }
 
-#two .year.first {
+#activity .year.first {
   margin-top: 1em;
 }
 
-#two .header {
+#activity .header {
   margin: 0 !important;
 }
 
