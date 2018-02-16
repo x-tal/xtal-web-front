@@ -1,0 +1,11 @@
+# Disable directory browsing
+Options -Indexes
+
+# Files Deny
+<FilesMatch ^(LICENSE.txt)$>
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# .git Deny
+RedirectMatch 404 /\.git
